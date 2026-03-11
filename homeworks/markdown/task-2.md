@@ -33,11 +33,11 @@ pip freeze > requirements.txt
 Обновляем .gitignore, чтобы в репозиторий не попадали файлы, которые не должны храниться в Git.
 
 Должны быть исключены (минимум):
-- виртуальное окружение: venv/, .venv/
-- python: __pycache__/, *.pyc
-- Django: db.sqlite3, *.sqlite3, media/ и static/
-- IDE/OS: .idea/, .vscode/, .DS_Store
-- переменные окружения: .env
+- виртуальное окружение: `venv/`, `.venv/`
+- python: `__pycache__/`, `*.pyc`
+- Django: `db.sqlite3`, `*.sqlite3`, `media/` и `static/`
+- IDE/OS: `.idea/`, `.vscode/`, `.DS_Store`
+- переменные окружения: `.env`
 
 Важное дополнение по .env:
 
