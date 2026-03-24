@@ -74,17 +74,17 @@ pip freeze > requirements.txt
 Разворачиваем в директории проекта python virtualenv ставим django.
 С помощью утилиты django-admin (появляется после установки django) нужно создать следующую структуру:
 ```
-EDU-Web                          - директория проекта в которой инициализован git
-    |--- application             - директория с настройками settings.py
-    |--- core                    - приложение с функционалом пользователя (страницы входа, регистрации, профиль) - ./manage.py startapp core
-          |--- templates/core    - шаблоны для приложения core
-          └--- static/core       - статика для приложения core
-    |--- questions               - приложение с функционалом вопросов (страницы списка вопроса, вопроса, etc) - ./manage.py startapp questions
-          |--- templates/core    - шаблоны для приложения questions
-          └--- static/core       - статика для приложения questions
-    |--- manage.py               - скрипт управления (будет создан django-admin.py)
-    |--- static                  - папка для собранных статических файлов (JS, CSS, картинки)
-    └--- media                   - папка для загруженных юзером файлов
+EDU-Web                              - директория проекта в которой инициализован git
+    |--- application                 - директория с настройками settings.py
+    |--- core                        - приложение с функционалом пользователя (страницы входа, регистрации, профиль) - ./manage.py startapp core
+          |--- templates/core        - шаблоны для приложения core
+          └--- static/core           - статика для приложения core
+    |--- questions                   - приложение с функционалом вопросов (страницы списка вопроса, вопроса, etc) - ./manage.py startapp questions
+          |--- templates/questions   - шаблоны для приложения questions
+          └--- static/questions      - статика для приложения questions
+    |--- manage.py                   - скрипт управления (будет создан django-admin.py)
+    |--- static                      - папка для собранных статических файлов (JS, CSS, картинки)
+    └--- media                       - папка для загруженных юзером файлов
 ```
 При этом директории templates, static, uploads — придется создать самостоятельно.
 
