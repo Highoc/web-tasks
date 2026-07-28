@@ -28,10 +28,9 @@
 
 ## Web-технологии - Домашние задания
 - [Техническое задание](homeworks/markdown/technical_details.md)
-- [Домашнее задание 1](homeworks/markdown/task-1.md)
-- [Домашнее задание 2](homeworks/markdown/task-2.md)
-- [Домашнее задание 3](homeworks/markdown/task-3.md)
-- [Домашнее задание 4](homeworks/markdown/task-4.md)
-- [Домашнее задание 5](homeworks/markdown/task-5.md)
-- [Домашнее задание 6](homeworks/markdown/task-6.md)
-- [Домашнее задание 7](homeworks/markdown/task-7.md)
+- [Домашнее задание 1 - Верстка статического сайта](homeworks/markdown/task-1.md)
+- [Домашнее задание 2 - Обработка HTTP запросов](homeworks/markdown/task-2.md)
+- [Домашнее задание 3 - Работа с базой данных](homeworks/markdown/task-3.md)
+- [Домашнее задание 4 - Авторизация и обработка форм](homeworks/markdown/task-4.md)
+- [Домашнее задание 5 - Дополнительные функции](homeworks/markdown/task-5.md)
+- [Домашнее задание 6 - Настройка веб-серверов](homeworks/markdown/task-6.md)
